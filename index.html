@@ -9,33 +9,43 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Frontend Mentor | Intro component with sign up form</title>
   </head>
   <body>
-    <div class="info">
-      <div class="container">
-        <h1 class="info__title">Learn to code by watching others</h1>
-        <p class="info__text">
-          See how experienced developers solve problems in real-time. Watching
-          scripted tutorials is great, but understanding how developers think is
-          invaluable.
-        </p>
-        <a href="" class="button info__button">Try it free 7 days then $20/mo. thereafter</a>
+    <div class="page">
+      <div class="col">
+        <div class="info">
+          <div class="container">
+            <h1 class="info__title">Learn to code by watching others</h1>
+            <p class="info__text">
+              See how experienced developers solve problems in real-time. Watching
+              scripted tutorials is great, but understanding how developers think is
+              invaluable.
+            </p>
+        
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="form">
-      <div class="container">
-        <form class="form__form">
-          <input type="text" class="form__input" placeholder="First Name"></input>
-          <input type="text" class="form__input" placeholder="Last Name"></input>
-          <input type="email" class="form__input" placeholder="Email Address"></input>
-          <input type="password" class="form__input" placeholder="Password"></input>
-        </form>
-        <a href="" class="button form__button">Claim your free trial</a>
-        <p class="form__small">
-          By clicking the button, you are agreeing to our <a href="" class="form__small__link">Terms and Services</a>
-        </p>
+      <div class="col">
+        <div class="container">
+        <a href="" class="button info__button"><span class="bold">Try it free 7 days</span> <span class="mobile-only"><br></span>then $20/mo. thereafter</a>
+        <div class="form">
+            <form class="form__form">
+              <input type="text" class="form__input" placeholder="First Name"></input>
+              <input type="text" class="form__input" placeholder="Last Name"></input>
+              <input type="email" class="form__input" placeholder="Email Address"></input>
+              <input type="password" class="form__input" placeholder="Password"></input>
+            </form>
+            <a href="" class="button form__button">Claim your free trial</a>
+            <p class="form__small">
+              By clicking the button, you are agreeing to our <a href="" class="form__small__link">Terms and Services</a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
     <script src="main.js"></script>
