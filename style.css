@@ -100,6 +100,11 @@ body {
   box-shadow: 0 -5px rgb(0, 0, 0, 0.1) inset;
 }
 
+.form__button:hover,
+.form__button:focus {
+  opacity: 0.75;
+}
+
 .form__small {
   text-align: center;
   width: 70%;
