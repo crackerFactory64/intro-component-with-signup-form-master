@@ -72,21 +72,50 @@ body {
 
 .form {
   background-color: #fff;
-  padding: 1em;
+  padding: 3em;
   border-radius: 1em;
   box-shadow: 0 10px rgb(0, 0, 0, 0.1);
 }
 
+.form__input-container {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  border: 2px solid var(--grayishBlue);
+  border-radius: 5px;
+  padding: 0 3em;
+  margin-bottom: 1em;
+}
+
 .form__input {
-  display: block;
   margin: 1em auto;
   width: 95%;
-  padding: 1.5em;
-  color: var(--grayishBlue);
+  color: var(--darkBlue);
   font-weight: 800;
   font-size: 0.75rem;
-  border: var(--grayishBlue) solid 0.5px;
-  border-radius: 0.25em;
+  line-height: 1.5em;
+  border: none;
+  caret-color: var(--darkBlue);
+}
+
+.form__input:focus {
+  outline: none;
+}
+
+.form__error-icon {
+  display: none;
+}
+
+.form__error {
+  width: 97%;
+  margin-bottom: 1em;
+  font-style: italic;
+  margin-block: 1em;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: right;
+  color: var(--red);
 }
 
 .form__button {
