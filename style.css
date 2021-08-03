@@ -108,6 +108,7 @@ body {
 }
 
 .form__error {
+  display: none;
   width: 97%;
   margin-bottom: 1em;
   font-style: italic;
