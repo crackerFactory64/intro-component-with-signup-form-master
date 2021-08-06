@@ -157,7 +157,7 @@ body {
   }
 
   .page {
-    background-image: url(/images/bg-intro-desktop.png);
+    background-image: url(images/bg-intro-desktop.png);
     display: flex;
     align-items: center;
     justify-content: center;
