@@ -3,6 +3,17 @@ const isEmail = (email) => {
   return regex.test(email);
 };
 
+let inputs = document.getElementsByClassName("form__input");
+
+for (let i = 0; i < inputs.length; i++) {
+  inputs[i].onfocus = () => {
+    inputs[i].parentElement.style.borderColor = "hsl(249, 10%, 26%)";
+  };
+  inputs[i].onblur = () => {
+    inputs[i].parentElement.style.borderColor = "hsl(246, 25%, 77%)";
+  };
+}
+
 document.getElementById("form__submit-button").onclick = () => {
   for (let i = 1; i < 5; i++) {
     if (document.getElementById("form__input" + i).value == "") {

@@ -85,7 +85,7 @@ body {
   margin: 0 auto;
   border: 2px solid var(--grayishBlue);
   border-radius: 5px;
-  padding: 0 3em;
+  padding: 0 1em;
   margin-bottom: 1em;
 }
 
@@ -139,6 +139,7 @@ body {
 .form__small {
   text-align: center;
   width: 100%;
+  line-height: 2em;
   padding-block: 1em;
   margin: 0 auto;
   font-size: 0.75rem;
@@ -198,6 +199,6 @@ body {
   }
 
   .form__small {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 }
